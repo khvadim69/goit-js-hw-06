@@ -18,12 +18,4 @@ ingredients.forEach((element) => {
 
 list.prepend(...liElArray);
 
-// const list = document.querySelector(".ingredients");
-// let newArray = []
-// ingredients.forEach((element) => {
-//   const liEl = document.createElement("li");
-//   liEl.classList.add("item");
-//   liEl.textContent = element;
-//   newArray.push(liEl);
-// });
-// list.appendChild(newArray);
+
