@@ -8,8 +8,8 @@ const nameOutput =
 inputName.addEventListener(
   "input",
   () =>
-    nameOutput.innerText =
+    (nameOutput.innerText =
       inputName.value
         ? inputName.value
         : "Anonymous")
-
+);

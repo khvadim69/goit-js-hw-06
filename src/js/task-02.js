@@ -6,10 +6,13 @@ const ingredients = [
   "Herbs",
   "Condiments",
 ];
-const list = document.querySelector("#ingredients");
+const list = document.querySelector(
+  "#ingredients"
+);
 const liElArray = [];
 ingredients.forEach((element) => {
-  const liEl = document.createElement("li");
+  const liEl =
+    document.createElement("li");
   liEl.classList.add("item");
   liEl.textContent = element;
   // console.log(liEl);
@@ -17,5 +20,3 @@ ingredients.forEach((element) => {
 });
 
 list.prepend(...liElArray);
-
-

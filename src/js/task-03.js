@@ -21,9 +21,15 @@ const makeGalleryCard = ({
       <img src="${url}" alt="${alt}" height="${(height = 300)}" width="${(width = 420)}">
   </li>`;
 
-const listEl = document.querySelector(".gallery");
+const listEl =
+  document.querySelector(".gallery");
 
-const markup = images.map((data) => makeGalleryCard(data)).join("");
+const markup = images
+  .map((data) => makeGalleryCard(data))
+  .join("");
 
-listEl.insertAdjacentHTML("afterbegin", markup);
+listEl.insertAdjacentHTML(
+  "afterbegin",
+  markup
+);
 console.log(markup);
