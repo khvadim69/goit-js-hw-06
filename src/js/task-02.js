@@ -17,5 +17,3 @@ ingredients.forEach((element) => {
 });
 
 list.prepend(...liElArray);
-
-
